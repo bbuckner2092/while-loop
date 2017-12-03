@@ -1,10 +1,18 @@
-// Print all numbers between -10 and 19
-// declare a count
-// use a while loop less than 19
-// print the count var and +1
-var count = -10;
-while (count < 19) {
-	console.log(count);
-	count++;
+console.log("Print all numbers between -10 and 19");
+
+var num = -10;
+while (num < 19) {
+	console.log(num);
+	num++;
 }
-console.log(count);
+console.log(num);
+
+console.log("Print all even numbers between 10 and 40");
+var num = 10;
+while (num <= 40) {
+	if (num % 2 === 0) {
+		console.log(num);
+	}
+
+	num++;
+}
