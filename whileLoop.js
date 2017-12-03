@@ -16,3 +16,14 @@ while (num <= 40) {
 
 	num++;
 }
+
+console.log("Print all odd numbers between 300 and 333");
+var num = 300;
+while (num <= 333) {
+	if (num % 2 !== 0) {
+		console.log(num);
+	}
+
+	num++;
+
+}
